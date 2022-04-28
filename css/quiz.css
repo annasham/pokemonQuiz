@@ -1,0 +1,107 @@
+@font-face {
+font-family: lores-9-plus-wide,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+h1 {
+  font-family: lores-9-plus-wide, sans-serif;
+  font-size: 60px;
+  text-align: center;
+}
+
+/* home button */
+
+#home {
+font-family: lores-9-plus-wide, sans-serif;
+font-size: 20px;
+text-align: center;
+color: white;
+border-style: none;
+border-color: transparent;
+text-decoration: none;
+background-color: transparent;
+padding-top: 10px;
+}
+
+#home:after {
+  color: white;
+}
+
+#test {
+  margin-left: auto;
+  padding: 50px;
+}
+
+#container {
+  margin: 20px;
+  width: 400px;
+  height: 8px;
+  position: relative;
+}
+
+#choice {
+  border-style: none;
+  color: white;
+  background-color: transparent;
+}
+
+#choice:hover {
+  border-color: white;
+  border-style: solid;
+  border-radius: 5%;
+}
+
+p {
+  font-family: lores-9-plus-wide, sans-serif;
+  font-size: 30px;
+}
+
+body {
+  background-color: #80D1FF;
+  color: white;
+}
+
+.optionContain {
+  display: flex;
+  grid-template-columns: auto;
+  gap: 40px;
+  height: 420px;
+  padding: 100px;
+  align-content: center;
+}
+
+.optionContain > div {
+  justify-content: center;
+  padding: 90px 0px;
+  font-size: 30px;
+  height: auto;
+  width: 341px;
+  text-align: center;
+}
+
+.optionContain > div:hover:after {
+  display: block;
+  position:relative;
+  text-align:center;
+  content: "▲";
+  color:white;
+}
+
+.optionContain img {
+  width: 50%;
+}
+
+/*pikachu footer*/
+
+footer {
+  height: 200px;
+}
+
+/* .pikachu {
+  width: 150px;
+} */
+
+footer img {
+  width: 1728px;
+}

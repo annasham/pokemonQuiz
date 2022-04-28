@@ -1,0 +1,71 @@
+@font-face {
+font-family: lores-9-plus-wide,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+p {
+  font-family: lores-9-plus-wide, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-family: lores-9-plus-wide, sans-serif;
+  font-size: 60px;
+  text-align: center;
+}
+.pokemons {
+  align-content: center;
+  align-items: center;
+  column-count: 5;
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+#aerodactyl {
+  transition: transform .2s;
+}
+
+#aerodactyl img:hover {
+  transform: scale(1.5);
+}
+/* home button */
+
+#home {
+font-family: lores-9-plus-wide, sans-serif;
+font-size: 20px;
+text-align: center;
+color: white;
+border-style: none;
+border-color: transparent;
+text-decoration: none;
+background-color: transparent;
+padding-top: 10px;
+}
+
+#home:after {
+  color: white;
+}
+
+body {
+  background-color: #80D1FF;
+  color: white;
+}
+
+
+/*pikachu footer*/
+
+footer {
+  height: 200px;
+}
+
+/* .pikachu {
+  width: 150px;
+} */
+
+footer img {
+  width: 1728px;
+}

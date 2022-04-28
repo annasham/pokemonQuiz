@@ -1,0 +1,91 @@
+
+@font-face {
+font-family: lores-9-plus-wide,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+body {
+  background-color: #80D1FF;
+  color: white;
+  height: 3499px;
+}
+
+h1 {
+  font-family: lores-9-plus-wide, sans-serif;
+  text-align: center;
+  font-size: 45px;
+}
+
+h3 {
+font-family: lores-9-plus-narrow,sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 20px;
+}
+
+footer img{
+  width: 100%;
+}
+
+/*anchoring grass image to bottom of page*/
+
+
+#introduction {
+  text-align: center;
+  justify-content: center;
+  height: 400px;
+  padding-top: 50px;
+}
+
+#start {
+  width: 223px;
+  height: 79px;
+  background-color: #FF7E7E;
+  border-color: #FF7E7E;
+  color: white;
+  font-size: 20px;
+  border-radius: 40px;
+  padding: 10px;
+  font-family: lores-12,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  cursor: pointer;
+}
+
+#nav {
+  padding-left: 50px;
+}
+
+#pokedex {
+  background-color: white;
+  border-style: solid;
+  border-radius: 5%;
+  border-color: white;
+  font-family: lores-9-plus-wide,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+
+#music {
+  background-image: url("../images/music-note.png");
+  background-size: cover;
+  background-color: transparent;
+  border-color: transparent;
+  height: 30px;
+  width: 20px;
+  border-style: none;
+  float: right;
+}
+
+#music-button {
+  padding-right: 5%;
+}
